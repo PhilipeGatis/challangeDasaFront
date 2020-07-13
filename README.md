@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## challengeDasaFront
 
-## Available Scripts
+###### Sistem de manutenção de exames e laboratórios
+Demo: https://dasachallengefront.herokuapp.com/
 
-In the project directory, you can run:
+#### Requisitos
+ - node
+ - yarn
 
-### `yarn start`
+###### Este projeto foi inciado com o [Create React App](https://create-react-app.dev/docs/getting-started/).
+###### Atenção: todos os comando a seguir são rodadados no terminal na pasta do projeto
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Instruçoes:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ - `Yarn install` ou `Yarn`
 
-### `yarn test`
+    Este comando instala todas as dependencias necessárias para rodar o projeto.
+ 
+ - `Yarn start`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Este comando roda a aplicação em modo de desenvolvimento. Abra o browser no endereço http://localhost:3000 após rodar o comando.
+    
+ - `Yarn test`
 
-### `yarn build`
+    Este comando roda os testes unitários do sistema.
+ 
+ - `Yarn cy:run`
+ 
+     Este comando roda os testes de integração em background. (precisa do sistema rodando em modo de desenvolvimento)
+     
+ - `Yarn cy:open`
+ 
+     Este comando roda os testes de integração em modo interativo. (precisa do sistema rodando em modo de desenvolvimento)
+     
+ - `Yarn build`
+ 
+     Este comando fara o build da aplicação gerando uma pasta chamanda build onde terá os arquivos para deploy ja otimizados.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### Arquitetura
+ Este projeto utliza:
+ 
+ - [ant-desing](https://ant.design/)  como biblioteca de componentes visuais
+ - [cypress](https://www.cypress.io/)  como framework para automação dos testes
+ - [jest](https://jestjs.io/) + [enzyme](https://enzymejs.github.io/enzyme/) como framework para testes unitários utilizando o metodo de [Snpashot testing](https://jestjs.io/docs/en/snapshot-testing)
