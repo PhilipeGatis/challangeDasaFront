@@ -26,14 +26,16 @@
     "jest-canvas-mock": "^2.2.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "start-server-and-test": "^1.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "cy:run": "cypress run",
-    "eject": "react-scripts eject"
+    "test": "yarn cy:open",
+    "test:ci": "yarn start-server-and-test start 3000 cy:run",
+    "cy:open": "yarn cypress open",
+    "cy:run": "yarn cypress run"
   },
   "husky": {
     "hooks": {
