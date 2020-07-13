@@ -4,6 +4,7 @@ import { Typography, Space, Button, Tooltip } from 'antd';
 import useUser from '../hooks/useUser';
 import styled from 'styled-components';
 import ArrowLeftOutlined from '@ant-design/icons/ArrowLeftOutlined';
+import { useHistory, useParams } from 'react-router-dom';
 
 const { Text } = Typography;
 
@@ -15,8 +16,9 @@ const StyleButton = styled(Button)`
   color: #fff;
 `;
 
-const UserHeader = ({ history, match }) => {
-  const { user } = match.params;
+const UserHeader = () => {
+  const { user } = useParams();
+  const history = useHistory();
   const [{ data, loading, error }] = useUser(user);
 
   if (error) {
@@ -32,10 +34,10 @@ const UserHeader = ({ history, match }) => {
   return (
     <Space direction="horizontal">
       <Tooltip title="Back">
-        <StyleButton type="link" href="/" shape="circle" icon={<ArrowLeftOutlined />} />
+        <StyleButton type="link" id="back" href="/" shape="circle" icon={<ArrowLeftOutlined />} />
       </Tooltip>
       <Avatar size={40} src={data.avatar_url} />
-      <StyleText>{data.name}</StyleText>
+      <StyleText>{data.name || data.login}</StyleText>
     </Space>
   );
 };

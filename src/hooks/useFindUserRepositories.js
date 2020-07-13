@@ -1,5 +1,7 @@
-import parseResponseByContentType from '../utils/parseResponseByContentType';
+import useAxios from 'axios-hooks';
 
-export default async (name) => {
-  return await parseResponseByContentType(fetch(`https://api.github.com/users/${name}/repos`));
+export default (name) => {
+  const [{ data, loading, error }, refetch] = useAxios(`https://api.github.com/users/${name}/repos`);
+  const hasError = error && error.response && !!error.response.status;
+  return [{ data, loading, error: hasError }, refetch];
 };

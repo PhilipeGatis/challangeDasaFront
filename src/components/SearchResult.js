@@ -10,7 +10,7 @@ const StyledList = styled(List)`
   height: 100%;
 `;
 
-const Component = ({ match }) => {
+const SearchResult = ({ match }) => {
   const { user } = match.params;
   const [{ data, loading }] = useFindUserRepositories(user);
   return (
@@ -35,4 +35,4 @@ const Component = ({ match }) => {
   );
 };
 
-export default Component;
+export default SearchResult;
