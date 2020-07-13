@@ -1,7 +1,7 @@
 import React from 'react';
 import { Avatar } from 'antd';
 import { Typography, Space, Button, Tooltip } from 'antd';
-import useUser from '../hooks/useUser';
+import useUser from '../../hooks/useUser';
 import styled from 'styled-components';
 import ArrowLeftOutlined from '@ant-design/icons/ArrowLeftOutlined';
 import { useHistory, useParams } from 'react-router-dom';

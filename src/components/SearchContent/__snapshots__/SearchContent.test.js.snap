@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchContent /> should render 1`] = `
+<div
+  class="ant-row ant-row-center ant-row-middle sc-AxjAm kaRYdH"
+>
+  <div
+    class="ant-col ant-col-24 sc-AxhCb eApdwK"
+  >
+    <div
+      aria-label="animation"
+      role="button"
+      style="width:200px;height:200px;overflow:hidden;margin:0 auto;outline:none"
+      tabindex="0"
+      title=""
+    />
+  </div>
+  <div
+    class="ant-col ant-col-24 sc-AxirZ hcOHYQ"
+  >
+    <span
+      class="ant-input-search sc-AxiKw ebfSXd ant-input-search-enter-button ant-input-search-large ant-input-group-wrapper ant-input-group-wrapper-lg"
+    >
+      <span
+        class="ant-input-wrapper ant-input-group"
+      >
+        <input
+          class="ant-input ant-input-lg"
+          id="searchInput"
+          placeholder="input username for search"
+          type="text"
+          value=""
+        />
+        <span
+          class="ant-input-group-addon"
+        >
+          <button
+            class="ant-btn ant-input-search-button ant-btn-primary ant-btn-lg"
+            type="button"
+          >
+            <span>
+              Search
+            </span>
+          </button>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;

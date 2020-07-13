@@ -1,8 +1,8 @@
 import React from 'react';
 import { List, Avatar } from 'antd';
 import { StarOutlined } from '@ant-design/icons';
-import useFindUserRepositories from '../hooks/useFindUserRepositories';
-import IconText from './IconText';
+import useFindUserRepositories from '../../hooks/useFindUserRepositories';
+import IconText from '../IconText';
 import styled from 'styled-components';
 
 const StyledList = styled(List)`

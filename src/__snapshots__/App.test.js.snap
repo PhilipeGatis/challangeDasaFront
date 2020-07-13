@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<BrowserRouter>
+  <Styled(Layout)
+    className="layout"
+  >
+    <Switch>
+      <Route
+        path="/:user"
+      >
+        <Header
+          className="header"
+        >
+          <UserHeader />
+        </Header>
+      </Route>
+    </Switch>
+    <Layout
+      style={
+        Object {
+          "padding": "0 24px 24px",
+        }
+      }
+    >
+      <Styled(Content)>
+        <Switch>
+          <Route
+            component={[Function]}
+            path="/:user"
+          />
+          <Route
+            component={[Function]}
+            path="/"
+          />
+        </Switch>
+      </Styled(Content)>
+    </Layout>
+  </Styled(Layout)>
+  <Snackbar />
+</BrowserRouter>
+`;

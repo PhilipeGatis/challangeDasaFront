@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResult /> should loading true 1`] = `
+<div
+  class="ant-list sc-AxjAm edOBbJ ant-list-split ant-list-loading"
+>
+  <div
+    class="ant-spin-nested-loading"
+  >
+    <div>
+      <div
+        class="ant-spin ant-spin-spinning"
+      >
+        <span
+          class="ant-spin-dot ant-spin-dot-spin"
+        >
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-spin-container ant-spin-blur"
+    >
+      <div
+        style="min-height:53px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchResult /> should render 1`] = `
+<div
+  class="ant-list sc-AxjAm edOBbJ ant-list-split"
+>
+  <div
+    class="ant-spin-nested-loading"
+  >
+    <div
+      class="ant-spin-container"
+    >
+      <ul
+        class="ant-list-items"
+      >
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                >
+                  TypeScript
+                </span>
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/approval"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  approval
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                approval any thing
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              6
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                />
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/formio.js"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  formio.js
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                JavaScript powered Forms with JSON Form Builder
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                >
+                  HTML
+                </span>
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/nuxeo-web-ui"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  nuxeo-web-ui
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                Ongoing work to build a new Nuxeo Web UI
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                >
+                  TypeScript
+                </span>
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/provichallenge"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  provichallenge
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                challange
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                >
+                  JavaScript
+                </span>
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/react-example"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  react-example
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                JavaScript
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                />
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/react-formio"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  react-formio
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                JSON powered forms for React.js
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="ant-list-item"
+        >
+          <div
+            class="ant-list-item-meta"
+          >
+            <div
+              class="ant-list-item-meta-avatar"
+            >
+              <span
+                class="ant-avatar ant-avatar-circle"
+                style="width:60px;height:60px;line-height:60px;font-size:18px"
+              >
+                <span
+                  class="ant-avatar-string"
+                  style="opacity:0"
+                >
+                  JavaScript
+                </span>
+              </span>
+            </div>
+            <div
+              class="ant-list-item-meta-content"
+            >
+              <h4
+                class="ant-list-item-meta-title"
+              >
+                <a
+                  href="https://github.com/PhilipeGatis/reactLearn"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  reactLearn
+                </a>
+              </h4>
+              <div
+                class="ant-list-item-meta-description"
+              >
+                Estudando React
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right:8px"
+            >
+              <span
+                aria-label="star"
+                class="anticon anticon-star"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  data-icon="star"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              0
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
